@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 40px;
+    font-family: Comic sans MS;
+    text-align: center;
+    margin-bottom: 15px;
+}
+section {
+    position: relative;
+}
+
+#p1 {
+    background-color: rgb(235, 120, 116);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: comic sans MS;
+    text-align: center;
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#p2 {
+    background-color: rgb(90, 31, 21);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: comic sans MS;
+    color: white;
+    text-align: center;
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#p3 {
+    background-color: rgb(233, 100, 38);
+    font-weight: bold;
+    font-size: 20px;
+    font-family: comic sans MS;
+    text-align: center;
+    position: absolute;
+    width: 25%;
+    top: 0;
+    right: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+div {
+    background-color: rgb(161, 161, 161);
+    position: relative;
+    border: 3px solid black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.desc {
+    
+    font-size: 18px;
+    font-family: comic sans ms;
+    border: 0;
+    margin-top: 32px;
+}
+
+.row {
+    width: 100%;
+}
+/**** DESKTOP SIZING ****/
+@media (min-width: 992px) {
+    .col-lg-4
+    {
+        float: left;
+    }
+    .col-lg-4 {
+        width: 33%;
+    }
+}
+
+/**** MEDIUM SIZING ****/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 
+    {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
