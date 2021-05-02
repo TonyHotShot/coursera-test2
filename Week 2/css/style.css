@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'New Tegomin', serif;
+}
+
+#header-nav {
+    background-color: beige;
+    border-bottom: 2px solid black;
+}
+#grid {
+    margin: 10px;
+}
+#menu {
+    text-align: center;
+    font-size: large;
+}
+button{
+    text-align: right;
+}
+
+div {
+    color: black;
+}
+
+#chicken {
+    background-color: gray;
+    height: 1000px;
+    border: 3px solid white;
+    
+}
+#beef {
+    background-color: gray;
+    height: 1000px;
+    border: 3px solid white;
+    
+}
+#sushi   {
+    background-color: gray;
+    height: 1000px;
+    border: 3px solid white;
+    
+}
+
+
